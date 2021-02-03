@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+
 <html>
   <head>
     <title>URL Shortener Microservice | freeCodeCamp.org</title>
@@ -12,21 +13,23 @@
   </head>
 
   <body>
-    <h1>URL Shortener Microservice</h1>
-    <main>
-      <section>
-        <form action="api/shorturl/new" method="POST">
-          <fieldset>
-            <legend>URL Shortener</legend>
-            <label for="url_input">URL:</label>
-            <input id="url_input" type="text" name="url" placeholder="https://www.freecodecamp.org/" />
-            <input type="submit" value="POST URL" />
-          </fieldset>
-        </form>
-      </section>
-    </main>
+    <div id="container">
+      <h1>URL Shortener Microservice</h1>
+      <main>
+        <section>
+          <form action="api/shorturl/new" method="POST">
+            <fieldset>
+              <legend>URL Shortener</legend>
+              <label for="url_input">URL:</label>
+              <input id="url_input" type="text" name="url" placeholder="http://info.cern.ch" />
+              <input type="submit" value="POST URL" />
+            </fieldset>
+          </form>
+        </section>
+      </main>
+    </div>
     <footer>
-      <p>By <a href="https://www.freecodecamp.org/">freeCodeCamp</a></p>
+      <p>This project was forked from <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener" target="_blank"></a></p>
     </footer>
   </body>
 </html>
